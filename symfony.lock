@@ -136,5 +136,80 @@
             "version": "3.3",
             "ref": "c72d107d077f1654428edaed69415d0228c1aefe"
         }
+    },
+    "symfony/var-dumper": {
+        "version": "v3.3.10"
+    },
+    "symfony/phpunit-bridge": {
+        "version": "3.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "0a66a0097def4db1cd03bcb3d4a268440ae4cb47"
+        }
+    },
+    "twig/twig": {
+        "version": "v2.4.4"
+    },
+    "symfony/twig-bridge": {
+        "version": "v3.3.10"
+    },
+    "symfony/web-profiler-bundle": {
+        "version": "3.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "6bdfa1a95f6b2e677ab985cd1af2eae35d62e0f6"
+        }
+    },
+    "symfony/twig-bundle": {
+        "version": "3.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "f75ac166398e107796ca94cc57fa1edaa06ec47f"
+        }
+    },
+    "symfony/profiler-pack": {
+        "version": "v1.0.2"
+    },
+    "monolog/monolog": {
+        "version": "1.23.0"
+    },
+    "easycorp/easy-log-handler": {
+        "version": "1.0",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "1.0",
+            "ref": "70062abc2cd58794d2a90274502f81b55cd9951b"
+        }
+    },
+    "symfony/monolog-bridge": {
+        "version": "v3.3.10"
+    },
+    "symfony/monolog-bundle": {
+        "version": "3.1",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.1",
+            "ref": "94d0b0b417e988466de57cea583f83b396e44661"
+        }
+    },
+    "symfony/debug-pack": {
+        "version": "v1.0.2"
+    },
+    "symfony/translation": {
+        "version": "3.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "58f37511a2ceec2761716413ce679cbe118e37c3"
+        }
     }
 }

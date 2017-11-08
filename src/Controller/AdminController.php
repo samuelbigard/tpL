@@ -8,6 +8,7 @@ use Symfony\Component\HttpFoundation\Response;
 class AdminController extends Controller
 {
     public function index(){
-        return new Response("Admin Homepage");
+        $this->getUser();
+        return $this->render("admin.html.twig");
     }
 }
