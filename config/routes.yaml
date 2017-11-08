@@ -1,6 +1,14 @@
-#index:
-#    path: /
-#    defaults: { _controller: 'App\Controller\DefaultController::index' }
+index:
+    path: /
+    defaults: { _controller: 'App\Controller\HomePageController::index' }
+
+user-index:
+    path: /espace-utilisateur
+    defaults: { _controller: 'App\Controller\UserController::index' }
+
+admin-index:
+    path: /admin
+    defaults: { _controller: 'App\Controller\AdminController::index' }
 
 # first, run composer req annotations
 #controllers:
