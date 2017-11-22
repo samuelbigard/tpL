@@ -304,5 +304,17 @@
     },
     "fzaninotto/faker": {
         "version": "v1.7.1"
+    },
+    "symfony/process": {
+        "version": "v3.3.13"
+    },
+    "symfony/web-server-bundle": {
+        "version": "3.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "c72d107d077f1654428edaed69415d0228c1aefe"
+        }
     }
 }

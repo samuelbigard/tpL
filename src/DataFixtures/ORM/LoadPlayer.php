@@ -10,7 +10,6 @@ namespace App\DataFixtures\ORM;
 
 
 use App\Entity\Player;
-use App\Entity\Weapon;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Common\Persistence\ObjectManager;
 use Faker\Factory;
@@ -43,7 +42,7 @@ class LoadPlayer extends Fixture
 
     public function getDependencies()
     {
-        return Weapon::class;
+        return [LoadWeapon::class];
     }
 
 }
