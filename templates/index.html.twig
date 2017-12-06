@@ -1,0 +1,15 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+    <a href="{{ path("new_participant") }}"> creer un nouveau participant </a>
+
+    <ul>
+    {% for participant in participants %}
+        {% if participant.enable == true %}
+            <li>{{ participant.name }} : OK</li>
+        {% else %}
+            <li>{{ participant.name }} : KO</li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+{% endblock %}
