@@ -10,5 +10,6 @@
         <li>I am {{ app.user.email }}</li>
     {% else %}
         <li><a href="{{ path('login') }}">Connexion</a></li>
+        <li><a href="{{ path('app_user_new') }}">Inscription</a></li>
     {% endif %}
 </ul>

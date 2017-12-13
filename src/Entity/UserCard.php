@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * @ORM\Entity
@@ -20,6 +21,9 @@ class UserCard
 
     /**
      * @ORM\Column(type="integer")
+     * @Assert\Type("integer")
+     * @Assert\NotBlank(message="Pas de valeur vide")
+     * @Assert\Callback(callback="validate")
      */
     private $attack = 2;
     /**

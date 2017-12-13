@@ -4,6 +4,7 @@
 /public/bundles/
 /var/
 /vendor/
+/.idea/
 ###< symfony/framework-bundle ###
 
 ###> symfony/phpunit-bridge ###
@@ -14,6 +15,4 @@
 .web-server-pid
 ###< symfony/web-server-bundle ###
 
-/.idea
 
-/composer.phar
